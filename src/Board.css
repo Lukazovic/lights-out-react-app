@@ -13,16 +13,16 @@
   vertical-align: middle;
 }
 
-.neon-orage {
+.neon-orange {
   font-family: neon;
   color: #fb4264;
   font-size: 9vw;
   line-height: 9vw;
   text-shadow: 0 0 3vw #f40a35;
 
-  animation: neon 1s ease infinite;
-  -moz-animation: neon 1s ease infinite;
-  -webkit-animation: neon 1s ease infinite;
+  animation: neon-orange 1s ease infinite;
+  -moz-animation: neon-orange 1s ease infinite;
+  -webkit-animation: neon-orange 1s ease infinite;
 }
 
 .neon-blue {
@@ -32,10 +32,10 @@
   line-height: 9vw;
   text-shadow: 0 0 3vw #2356ff;
 
-  animation: flux 2s linear infinite;
-  -moz-animation: flux 2s linear infinite;
-  -webkit-animation: flux 2s linear infinite;
-  -o-animation: flux 2s linear infinite;
+  animation: neon-blue 2s linear infinite;
+  -moz-animation: neon-blue 2s linear infinite;
+  -webkit-animation: neon-blue 2s linear infinite;
+  -o-animation: neon-blue 2s linear infinite;
 }
 
 @keyframes neon-orange {

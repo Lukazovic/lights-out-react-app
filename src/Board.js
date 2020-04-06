@@ -78,9 +78,15 @@ class Board extends Component {
       tableBoard.push(<tr key={y}>{row}</tr>);
     }
     return (
-      <table className="Board">
-        <tbody>{tableBoard}</tbody>
-      </table>
+      <div>
+        <div className="Board-title">
+          <div className="neon-orange">Ligths</div>
+          <div className="neon-blue">Out</div>
+        </div>
+        <table className="Board">
+          <tbody>{tableBoard}</tbody>
+        </table>
+      </div>
     );
   }
 }

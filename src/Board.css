@@ -7,17 +7,16 @@
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
 }
 
-.container {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
+.Board-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .neon-orange {
   font-family: neon;
   color: #fb4264;
-  font-size: 9vw;
-  line-height: 9vw;
+  font-size: 75px;
   text-shadow: 0 0 3vw #f40a35;
 
   animation: neon-orange 1s ease infinite;
@@ -28,8 +27,7 @@
 .neon-blue {
   font-family: neon;
   color: #426dfb;
-  font-size: 9vw;
-  line-height: 9vw;
+  font-size: 75px;
   text-shadow: 0 0 3vw #2356ff;
 
   animation: neon-blue 2s linear infinite;

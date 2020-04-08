@@ -33,7 +33,7 @@ Then you can start playing. Good luck!
 
 ## 🤔 How to Contribute
 
-- Clone the project: `git clone https://github.com/Lukazovic/lights-out-react-app.git`;
+- Fork this repository;
 - Create your branch with your feature: `git checkout -b my-feature`;
 - Commit your feature: `git commit -m 'feat: My new feature'`;
 - Push to your branch: `git push origin my-feature`.
